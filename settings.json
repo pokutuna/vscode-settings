@@ -1,0 +1,25 @@
+{
+  "window.zoomLevel": 0,
+  "editor.fontFamily": "'VL Gothic', Menlo, Monaco, 'Courier New', monospace",
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": true,
+  "editor.fontSize": 13,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "todo-tree.defaultHighlight": {},
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "September Steel",
+  "InstantWeather.location": "kyoto",
+  "InstantWeather.key": "669a4c0cede7b56ea305802c1ae89dca"
+}

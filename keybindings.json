@@ -1,0 +1,69 @@
+
+// Place your key bindings in this file to override the defaults
+[{
+  "key": "cmd+w",
+  "command": "emacs.M-w",
+  "when": "editorTextFocus"
+}, {
+  "key": "alt+w",
+  "command": "workbench.action.closeActiveEditor"
+  // workbench.action.closeGroup も?
+},{
+  "key": "ctrl+'",
+  "command": "redo",
+  "when": "textInputFocus && !editorReadonly"
+},{
+  "key": "ctrl+;",
+  "command": "workbench.action.quickOpen",
+},{
+  "key": "ctrl+c l",
+  "command": "workbench.action.focusRightGroup",
+  "when": "editorTextFocus"
+},{
+  "key": "ctrl+c h",
+  "command": "workbench.action.focusLeftGroup",
+  "when": "editorTextFocus"
+},{
+  "key": "ctrl+x 0",
+  "command": "workbench.action.closeEditorsInGroup",
+  "when": "editorTextFocus"
+},{
+  "key": "cmd+i",
+  "command": "editor.action.triggerSuggest",
+  "when": "textInputFocus && !editorReadonly"
+},{
+  "key": "alt+o",
+  "command": "workbench.action.findInFiles"
+},{
+  "key": "alt+.",
+  "command": "editor.action.revealDefinition",
+  "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+},{
+  "key": "alt+,",
+  "command": "workbench.action.navigateBack",
+  "when": "editorTextFocus"
+},{
+  "key": "shift+ctrl+.",
+  "command": "editor.action.addSelectionToNextFindMatch",
+  "when": "editorFocus"
+},{
+  "key": "shift+ctrl+,",
+  "command": "editor.action.addSelectionToPreviousFindMatch",
+  "when": "editorFocus"
+},{
+  "key": "ctrl+shift+n",
+  "command": "editor.action.insertCursorBelow",
+  "when": "editorTextFocus"
+},{
+  "key": "ctrl+shift+p",
+  "command": "editor.action.insertCursorAbove",
+  "when": "editorTextFocus"
+},{
+  "key": "alt+z",
+  "command": "extension.jumpy-word",
+  "when": "editorTextFocus"
+},{
+  "key": "ctrl+g",
+  "command": "extension.jumpy-exit",
+  "when": "editorTextFocus && jumpy.isJumpyMode"
+}]

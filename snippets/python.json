@@ -1,0 +1,9 @@
+{
+	"pprint": {
+		"prefix": "pprint",
+		"body": [
+			"from pprint import pprint",
+			"pprint($0)"
+		]
+	}
+}
