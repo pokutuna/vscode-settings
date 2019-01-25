@@ -12,6 +12,7 @@ code --install-extension PeterJausovec.vscode-docker
 code --install-extension PKief.material-icon-theme
 code --install-extension rebornix.nova
 code --install-extension shardulm94.trailing-spaces
+code --install-extension SirTobi.code-clip-ring
 code --install-extension sneezry.vscode-instant-weather
 code --install-extension SolarLiner.linux-themes
 code --install-extension wmaurer.vscode-jumpy

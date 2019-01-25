@@ -199,5 +199,16 @@
     "key": "ctrl+g",
     "command": "extension.jumpy-exit",
     "when": "editorTextFocus && jumpy.isJumpyMode"
-  }
+  },
+  // Cliboard Ring
+  {
+    "key": "ctrl+y",
+    "command": "clipring.pasteRingItem",
+    "when": "editorTextFocus",
+  },
+  {
+    "key": "cmd+y",
+    "command": "clipring.selectAndPasteRingItem",
+    "when": "editorTextFocus",
+  },
 ]
