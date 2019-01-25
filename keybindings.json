@@ -127,6 +127,15 @@
     "command": "workbench.action.closeActiveEditor"
     // workbench.action.closeGroup も?
   },
+  {
+    "key": "cmd+f",
+    "command": "emacs.cursorWordRight",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+f",
+    "command": "actions.find"
+  },
   //
   {
     "key": "cmd+b",
