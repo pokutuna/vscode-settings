@@ -21,5 +21,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "September Steel",
   "InstantWeather.location": "kyoto",
-  "InstantWeather.key": "669a4c0cede7b56ea305802c1ae89dca"
+  "InstantWeather.key": "669a4c0cede7b56ea305802c1ae89dca",
+  "clipring.maxRingItems": 20,
+  "docker.truncateMaxLength": 30
 }

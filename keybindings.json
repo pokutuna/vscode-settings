@@ -211,11 +211,6 @@
   },
   // Cliboard Ring
   {
-    "key": "ctrl+y",
-    "command": "clipring.pasteRingItem",
-    "when": "editorTextFocus",
-  },
-  {
     "key": "cmd+y",
     "command": "clipring.selectAndPasteRingItem",
     "when": "editorTextFocus",
