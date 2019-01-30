@@ -30,6 +30,17 @@
     "command": "editor.action.formatDocument",
     "when": "editorTextFocus && !editorReadonly && !editorHasSelection"
   },
+  // jump to error
+  {
+    "key": "cmd+n",
+    "command": "editor.action.marker.next",
+    "when": "editorFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+p",
+    "command": "editor.action.marker.prev",
+    "when": "editorFocus && !editorReadonly"
+  },
   // edit multiple
   {
     "key": "shift+ctrl+.",
@@ -194,6 +205,11 @@
     "command": "emacs.cursorTop",
     "when": "editorTextFocus"
   },
+  //
+  {
+    "key": "alt+n",
+    "command": "workbench.action.files.newUntitledFile"
+  }
   // dont'care inPlaceReplace
   //
   // -----
