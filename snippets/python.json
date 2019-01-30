@@ -5,5 +5,11 @@
 			"from pprint import pprint",
 			"pprint($0)"
 		]
-	}
+	},
+	"Shut up pep8 #501": {
+		"prefix": "noqa",
+		"body": [
+			"# noqa: E501",
+		]
+	},
 }
