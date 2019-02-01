@@ -19,6 +19,10 @@
     "command": "workbench.action.closeEditorsInGroup",
     "when": "editorTextFocus"
   },
+  {
+    "key": "cmd+g cmd+g",
+    "command": "workbench.action.gotoLine",
+  },
   // format
   {
     "key": "ctrl+cmd+\\",
