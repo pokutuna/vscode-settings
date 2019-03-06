@@ -25,4 +25,5 @@
   "InstantWeather.key": "669a4c0cede7b56ea305802c1ae89dca",
   "clipring.maxRingItems": 20,
   "docker.truncateMaxLength": 30,
+  "editor.renderWhitespace": "none",
 }

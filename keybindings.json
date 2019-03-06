@@ -23,6 +23,10 @@
     "key": "cmd+g cmd+g",
     "command": "workbench.action.gotoLine",
   },
+  {
+    "key": "ctrl+\\",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
   // format
   {
     "key": "ctrl+cmd+\\",
@@ -213,8 +217,13 @@
   {
     "key": "alt+n",
     "command": "workbench.action.files.newUntitledFile"
-  }
+  },
   // dont'care inPlaceReplace
+  {
+    "key": "cmd+;",
+    "command": "editor.action.blockComment",
+    "when": "editorTextFocus && !editorReadonly"
+  },
   //
   // -----
   //
