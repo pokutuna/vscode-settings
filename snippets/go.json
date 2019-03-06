@@ -19,22 +19,10 @@
 			"spew.Dump($1)"
 		]
 	},
-	"print with %+v": {
-		"prefix": "dump",
+	"dump with %+v": {
+		"prefix": "print",
 		"body": [
 			"fmt.Printf(\"%+v\\n\", $1)"
-		]
-	},
-	"gotexpect": {
-		"prefix": "got_expect",
-		"body": [
-			"t.Fatalf(\"got %+v, expect %+v\\n\", $1, $2)"
-		]
-	},
-	"unexpected": {
-		"prefix": "unexpected",
-		"body": [
-			"t.Fatalf(\"unexpected $1, got %+v\\n\", $2)"
 		]
 	},
 	"test case": {
@@ -51,6 +39,18 @@
 			"t.Run(\"$1\", func(t *testing.T) {",
 			"\t$2",
 			"}"
+		]
+	},
+	"gotexpect": {
+		"prefix": "got_expect",
+		"body": [
+			"t.Fatalf(\"got %+v, expect %+v\\n\", $1, $2)"
+		]
+	},
+	"unexpected": {
+		"prefix": "unexpected",
+		"body": [
+			"t.Fatalf(\"unexpected $1, got %+v\\n\", $2)"
 		]
 	}
 }
