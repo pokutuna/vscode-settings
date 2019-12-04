@@ -25,5 +25,14 @@
 			"use DataDumper;",
 			"warn Dumper($1);"
 		]
+	},
+	"enable DBIx::QueryLog": {
+		"prefix": "querylog",
+		"body": [
+			"use DBIx::QueryLog ();",
+			"DBIx::QueryLog->begin;",
+			"$1",
+			"DBIx::QueryLog->end;"
+		]
 	}
 }
