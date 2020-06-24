@@ -1,14 +1,27 @@
 {
+  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
   "window.zoomLevel": 0,
+  /**
+   Global editor.*
+   */
   "editor.fontFamily": "'VL Gothic', Menlo, Monaco, 'Courier New', monospace",
+  // 'VL Gothic', 'JetBrains Mono', 'Fira Code', 'Ricty Diminished Discord'
+  "editor.fontSize": 13,
+  //"editor.lineHeight": 16,
+  "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
   "editor.autoClosingBrackets": "always",
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "window.restoreWindows": "none",
+  "workbench.editor.showTabs": false,
   "breadcrumbs.enabled": true,
-  "editor.fontSize": 13,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
-  "editor.tabSize": 2,
+  /** Languages */
   "[typescript]": {
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -22,10 +35,6 @@
   },
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "September Steel",
-  "InstantWeather.location": "kyoto",
-  "InstantWeather.key": "669a4c0cede7b56ea305802c1ae89dca",
-  "clipring.maxRingItems": 20,
-  "docker.truncateMaxLength": 30,
   "editor.renderWhitespace": "none",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "[typescriptreact]": {
@@ -34,14 +43,12 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "eslint.autoFixOnSave": true,
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "liveshare.featureSet": "insiders",
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
@@ -49,6 +56,22 @@
     "editor.formatOnSave": true
   },
   "go.useLanguageServer": true,
+  "[terraform]": {
+    "editor.formatOnSave": true
+  },
+  "terraform.languageServer": {
+    "external": true,
+    "args": [
+      "serve"
+    ]
+  },
+  /** Extensions */
+  "liveshare.featureSet": "insiders",
+  "InstantWeather.location": "kyoto",
+  "InstantWeather.key": "669a4c0cede7b56ea305802c1ae89dca",
+  "clipring.maxRingItems": 20,
+  "docker.truncateMaxLength": 30,
   "todo-tree.highlights.defaultHighlight": {},
-  "git.autofetch": true
+  "todo-tree.tree.showScanModeButton": false,
+  "git.autofetch": true,
 }
